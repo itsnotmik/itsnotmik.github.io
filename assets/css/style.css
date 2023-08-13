@@ -352,6 +352,7 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .info_more-btn {
@@ -827,6 +828,12 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.bullets {
+  list-style: inside;
+  list-style-type: circle;
+  list-style-position: outside;
 }
 
 
