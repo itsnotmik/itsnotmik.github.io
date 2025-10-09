@@ -3,6 +3,16 @@ import { FileText } from "lucide-react"
 
 const publications = [
   {
+    authors: "Clement, M.",
+    title:
+      "TIME SERIES DEEP LEARNING APPROACH FOR THE INTERMITTENT OPERATIONAL PERFORMANCE OF A WELLHEAD WATER TREATMENT AND DESALINATION SYSTEM",
+    venue:
+      "CSUSB ScholarWorks Electronic Theses, Projects, and Dissertations",
+    location: "California State University, San Bernardino",
+    date: "May, 2025",
+    link: "https://scholarworks.lib.csusb.edu/etd/2244",
+  },
+  {
     authors: "Clement, M., Kelly, N., Marki, N., Soto, M., Cohen, Y. & Khan, B.",
     title:
       "Domain Aware Modeling of Multi-Mode Operation of RO water treatment and desalination system via Graph Convolutional Networks",
@@ -18,6 +28,7 @@ const publications = [
     venue: "Session 10E - Information Management and Intelligent Systems, AIChE Annual Meeting",
     location: "Boston, MA",
     date: "November 2 – 6, 2023",
+    link: "https://aiche.confex.com/aiche/2025/prelim.cgi/Paper/709132",
   },
   {
     authors: "Khan, B. M., M. Clement, Y. Zhou, N. Marki and Y. Cohen",
@@ -26,6 +37,7 @@ const publications = [
     venue: "Water Technology",
     location: "Ready for submission",
     date: "2025",
+    link: "",
   },
 ]
 
@@ -50,6 +62,18 @@ export function Publications() {
                       {pub.location}, {pub.date}
                     </p>
                   </div>
+                  {pub.link && (
+                    <div className="pt-2">
+                      <a
+                        href={pub.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm"
+                      >
+                        Visit Publication →
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </Card>

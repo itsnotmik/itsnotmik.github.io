@@ -9,28 +9,35 @@ export function About() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              As a recent Computer Science graduate with both Master's and Bachelor's degrees from California State
-              University, San Bernardino (3.8 GPA), I blend technical innovation with practical problem-solving. My
-              graduate research focused on developing Graph Convolutional Neural Networks with attention mechanisms to
-              improve operational performance of water treatment and desalination systems—a project funded by the US
-              National Alliance for Water Innovation.
+              I&apos;m a recent Computer Science graduate (M.S. & B.S.) from California State 
+              University, San Bernardino with a 3.8 GPA, driven by a passion for combining 
+              machine learning, cybersecurity, and sustainable technology to solve real-world 
+              challenges.
             </p>
             <p>
-              Beyond academia, I led a team developing a comprehensive nanomaterial information database, where I've
-              honed my skills in team leadership, GitHub administration, and full-stack development using Python, PHP,
-              and JavaScript on AWS infrastructure.
+              My graduate research focused on developing Graph Convolutional Neural Networks 
+              with attention mechanisms to optimize the operational performance of water 
+              treatment and desalination systems—a project funded by the U.S. National Alliance 
+              for Water Innovation (NAWI).
             </p>
             <p>
-              In the cybersecurity arena, I've demonstrated exceptional skills by placing in the top 100 competitors in
-              the National Cyber League individual games in my first cybersecurity competition. I also helped lead my
-              team to an impressive 11th place finish out of 460 teams in the team competition, by completing 99.2% of
-              the challenges.
+              Outside of research, I led the development of a comprehensive nanomaterial 
+              information database, where I strengthened my expertise in full-stack development 
+              (Python, PHP, JavaScript), AWS cloud infrastructure, GitHub administration, and 
+              technical team leadership.
             </p>
             <p>
-              I'm passionate about the intersection of machine learning, cybersecurity, environmental sustainability,
-              and efficient infrastructure systems. Currently seeking opportunities where I can leverage my expertise in
-              machine learning, software development, and project management to drive innovation and create meaningful
-              impact.
+              In the cybersecurity field, I ranked among the top 100 competitors nationwide in 
+              the National Cyber League individual games, and helped guide my team to an 
+              11th-place finish out of 460 teams in the team competition by completing 99.2% 
+              of all challenges.
+            </p>
+            <p>
+              I&apos;m passionate about leveraging AI and data-driven technologies to enhance 
+              environmental sustainability, secure infrastructure systems, and operational 
+              efficiency. I&apos;m currently seeking opportunities to apply my skills in machine 
+              learning, software engineering, and project management to drive innovation and 
+              deliver meaningful impact.
             </p>
           </div>
         </div>

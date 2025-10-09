@@ -16,7 +16,7 @@ const skillCategories = [
   {
     title: "Libraries & Frameworks",
     icon: Database,
-    skills: ["pandas", "NumPy", "Matplotlib", "SciKit Learn", "PyTorch", "Ollama"],
+    skills: ["Pandas", "NumPy", "Matplotlib", "SciKit Learn", "PyTorch", "Ollama"],
   },
 ]
 

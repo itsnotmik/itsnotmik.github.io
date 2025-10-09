@@ -6,12 +6,12 @@ const projects = [
     title: "Mikux",
     period: "Apr 2025 – Present",
     description:
-      "Designed and maintained personal homelab infrastructure hosting portfolio website, secure password management system, and gaming server utilizing Cloudflare tunneling for secure remote access",
+      "Designed and maintained personal home server infrastructure hosting portfolio website, secure password management system, and gaming server utilizing Cloudflare tunneling for secure remote access",
     technologies: ["Python", "Node.js", "Proton", "Cloudflare"],
   },
   {
     title: "Linux Package Manager",
-    period: "Jan 2025 – Present",
+    period: "Jan 2025 – May 2025",
     description:
       "Developed a Golang webserver for Linux package distribution to a LFS machine with HTTP API key authentication. Automatic static package building through Docker container with built-in version control",
     technologies: ["Golang", "Docker", "LFS", "Alpine", "GitLab"],
